@@ -43,7 +43,7 @@ public class Controller {
            Collections.sort(list, new Comparator<Student>() {
                @Override
                public int compare(Student o1, Student o2) {
-                   return o2.getMark()-o1.getMark()>0?-1:0;
+                   return o2.getMark()-o1.getMark()<0?-1:0;
                }
            });
              String txt="";
@@ -58,7 +58,7 @@ public class Controller {
              Collections.sort(list, new Comparator<Student>() {
                  @Override
                  public int compare(Student o1, Student o2) {
-                     return o2.getMark()-o1.getMark()<0?-1:0;
+                     return o2.getMark()-o1.getMark()>0?-1:0;
                  }
              });
              String txt="";
