@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="name" layoutX="37.0" layoutY="70.0" prefHeight="36.0" prefWidth="225.0" promptText="Họ va tên" />
+      <TextField fx:id="phone" layoutX="37.0" layoutY="122.0" prefHeight="36.0" prefWidth="225.0" promptText="Số điện thoại" />
+      <TextField fx:id="address" layoutX="37.0" layoutY="176.0" prefHeight="36.0" prefWidth="225.0" promptText="Địa chỉ" />
+      <TextField fx:id="income" layoutX="37.0" layoutY="228.0" prefHeight="36.0" prefWidth="225.0" promptText="Mức lương" />
+      <Button onAction="#submit" layoutX="37.0" layoutY="292.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="225.0" text="Submit" textFill="#0071ff">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="infoTable" layoutX="323.0" layoutY="70.0" prefHeight="260.0" prefWidth="240.0" />
+   </children>
+</Pane>
